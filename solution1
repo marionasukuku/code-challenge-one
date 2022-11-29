@@ -1,0 +1,27 @@
+//Student Grade Generator
+const prompt= require("prompt-sync")();
+const score = parseInt("Enter a value btn 0 and 100");
+function studentScore(score){};
+
+//integer input
+if(!Number. integer(score));{
+    console.log ("please enter an integer")
+    if (score>100){
+        console.log("please enter a value less than or equal to 100")
+    }
+    else if(score>79){
+    console.log("A")
+}
+   else if(score>60<79){
+    console.log("B")
+   } 
+   else if(score<59>49){
+    console.log("C")
+   }
+   else if(score<40>49){
+    console.log("D")
+   }
+   else if(score<40){
+    console.log("E")
+   }
+};
