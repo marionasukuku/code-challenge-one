@@ -30,4 +30,4 @@ https://www.kra.go.ke/en/individual/calculate-tax/calculating-tax/paye
 
 Links to an external site.
 
- 
+ developed by Marion Asukuku
