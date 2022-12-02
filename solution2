@@ -1,17 +1,16 @@
 //speed detector
-const prompt = require (prompt-sync)();
-const speed = parseInt("Recorded speed");
+const prompt=require("prompt-sync")();
+const speed= parseInt(prompt("Recorded speed"))
 function carspeed(speed){
-    if (speed<70){
+    if(speed<70){
         console.log("Ok")
     }
     else if(speed>70){
-        const points = (speed-70)/5;{
-            console.log('Demerit points.$(points)')
+        const points=((speed - 70) / 5);{
+            console.log('demerit points. &(points)');
         }
     }
-    if (points>=12){
-        console.log("License suspend")
+    else if (points >=12){
+        console.log("License suspended")
     }
 };
-carspeed(speed);
