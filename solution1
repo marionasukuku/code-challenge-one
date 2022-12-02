@@ -1,27 +1,20 @@
 //Student Grade Generator
-const prompt= require("prompt-sync")();
-const score = parseInt("Enter a value btn 0 and 100");
-function studentScore(score){};
-
-//integer input
-if(!Number. integer(score));{
-    console.log ("please enter an integer")
-    if (score>100){
-        console.log("please enter a value less than or equal to 100")
-    }
-    else if(score>79){
-    console.log("A")
+const marks = parseInt("Enter a value between 0 and 100:");
+function studentMarks(marks) { 
+     //  marks input
+if ( !Number.isInteger(marks)) {
+  console.log("Please enter a number!");
+}else if (marks > 100) {
+  console.log("Please enter  a value less than or equal to 100!");
+}else if (marks > 79) {
+console.log("Your Grade is: A");
+}else if (marks >= 60) {
+console.log("Your Grade is: B");
+}else if (marks >49) {
+console.log("Your Grade is: C");
+}else if (marks >= 40) {
+console.log("Your Grade is: D");
+}else if (marks < 40) {
+console.log("Your Grade is: E");
 }
-   else if(score>60<79){
-    console.log("B")
-   } 
-   else if(score<59>49){
-    console.log("C")
-   }
-   else if(score<40>49){
-    console.log("D")
-   }
-   else if(score<40){
-    console.log("E")
-   }
-};
+};studentMarks(marks);
